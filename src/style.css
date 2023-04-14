@@ -1,10 +1,14 @@
-{
+* {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     font-family: "Nunito Sans", sans-serif;
 }
+
+
+/*HEADER*/
 
 .container {
     margin: 0 auto;
@@ -33,4 +37,34 @@ body {
 }
 .page-nav-list a:hover {
     color: #213131;
+}
+
+/*BANNER*/
+
+.banner {
+    height: 560px;
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.banner-title {
+    font-size: 57px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner-title span {
+    text-decoration: underline;
+    font-weight: 900;
+}
+.banner-text {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.6;
 }
