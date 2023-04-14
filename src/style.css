@@ -1,0 +1,36 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.page-header .container {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-nav-list {
+    display: flex;
+}
+
+.page-nav-list li {
+    margin-left:20px;
+    list-style: none;
+}
+.page-nav-list a {
+    text-transform: uppercase;
+    color: #8E9696;
+    font-weight: 600;
+}
+.page-nav-list a:hover {
+    color: #213131;
+}
